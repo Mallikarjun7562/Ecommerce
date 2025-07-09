@@ -1,0 +1,28 @@
+div{
+    background-image: url(	https://cdn.pixabay.com/index/2023/12/29/02-43-56-604_1920x550.jpg);
+    height: 500px;
+    width: 100%;
+    background-repeat:no-repeat;
+    display: flex;
+    justify-content: space-between;
+
+}
+div>svg{
+    height: 100px;
+    width: 100px;
+    color: aliceblue;
+}
+ul{
+    color: white;
+    display:inline-flex;
+    list-style-type: none;
+    width: 400px;
+    justify-content: space-evenly;
+   
+}
+button{
+    border-radius: 20px;
+}
+h1{
+    
+}

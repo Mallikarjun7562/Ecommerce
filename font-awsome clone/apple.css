@@ -1,0 +1,34 @@
+ul{
+    background-color: black;
+    /* justify-content: end; */
+    display: flex;
+    list-style: none;
+    justify-content:space-between;
+    text-decoration:red;
+    font-size:x-small;
+    color: white;
+    align-content: center;
+    margin-left: 100px;
+    height: 30px;
+    
+    
+
+    
+    
+}
+span{
+    align-content: center;
+    background-color: black;
+    color: white;
+    display: flex;
+}
+.d1 h2{
+align-content: center;
+background-image: url("/v/home/bi/images/heroes/iphone-15-pro/hero_iphone23pro__i70z9oz3hj2i_large.jpg");
+}
+.d1{
+    margin-left: 00px;
+    justify-content: center;
+    align-items: center;
+    flex: 1;
+}

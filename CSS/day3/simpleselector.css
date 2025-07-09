@@ -1,0 +1,30 @@
+#demo{
+    color: red;
+    background-color:black;
+}
+#demo1{
+    color: blue;
+    background-color: black;
+}
+.demo2{
+    color: black;
+    background-color: red;
+}
+.demo3{
+    text-align: center;
+}
+h2{
+    color: yellow;
+    background-color: black;
+}
+h1{
+    text-align: center;
+}
+/* gruoping element  */
+#demo,.demo2,h2{
+    text-decoration: line-through;
+}
+/* universal selector  */
+body{
+    background-color:blue;
+}

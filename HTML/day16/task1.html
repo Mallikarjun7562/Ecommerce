@@ -1,0 +1,182 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+</head>
+<body>
+    <h1>Create Your Account</h1>
+    <h5 style="font-style: normal; color: red;"> * Required information</h5>
+    
+    <form action="">
+        <table>
+            <thead>
+                <tr>
+                   <td>
+                    <h4>Basic information</h4>
+                    
+                   </td>
+                   <td></td>
+                   <td></td>
+                </tr>
+            </thead>
+            <tr>
+                <td></td>
+                <td>
+                    <label for="Email">Email <b style="color: red;">*</b></label>
+                </td>
+                <td><input type="email" id="email" name="email" required></td>
+            </tr>
+            <tr>
+                <td></td>
+                <td><label for="Password">Password <b style="color: red;">*</b></label></td>
+                <td><input type="password" id="password" name="password" ></td>
+            </tr>
+            <tr>
+                <td></td>
+                <td><label for="Retype Password">Retype Password <b style="color: red;">*</b></label></td>
+                <td><input type=" Retype password" id="Retype password" name=" Retypepassword"></td>
+            </tr>
+            <tr>
+                <td></td>
+                <td><label for="First Name">First Name <b style="color: red;">*</b></label></td>
+                <td><input type="First Name" id="First Name" name="First Name"></td>
+            </tr>
+            <tr>
+                <td></td>
+                <td><label for="last Name">Last Name <b style="color: red;">*</b></label></td>
+                <td><input type="last Name" id="last Name" name="last Name"></td>
+            </tr>
+            <tr>
+                <td></td>
+                <td><label for="Phone Number">Phone Number <b style="color: red;">*</b></label></td>
+                <td><input type="tel" id="Phone Number" name="Phone Number" required placeholder="999-999-9999"></td>
+            </tr>
+            <tr>
+                <td></td>
+                <td><label for="Address">Address <b style="color: red;">*</b></label></td>
+                <td><textarea name="" id="" cols="30" rows="10"></textarea></td>
+            </tr>
+            <tr>
+                <td></td>
+                <td><label for="City">City <b style="color: red;">*</b></label></td>
+                <td><input type="City" id="City" name="City"></td>
+            </tr>
+            <tr>
+                <td></td>
+                <td><label for="Province">Province <b style="color: red;">*</b></label></td>
+               <td>
+                <select name="pro" id="pro" name="pro">
+                <option value="usa">usa</option>
+                <option value="canada">canada</option>
+                <option value="south arfrica">south arfrica</option>
+                <option value=" england">england</option>
+                </select></td>
+            </tr>
+            <tr>
+                <td></td>
+                <td><label for="country">Country <b style="color: red;">*</b></label></td>
+                <td><input type="country" id="country" name="country" ></td>
+            </tr>
+        </table>
+        
+        <table>
+            <thead>
+                <tr><td>
+                    
+                    <h4>Education</h4>
+                </td></tr>
+            </thead>
+            <tr>
+                <td></td>
+                <td><label for="School">School <b style="color: red;">*</b></label></td>
+                <td><input type="School" id="School" name="School"></td>
+            </tr>
+            <tr>
+                <td></td>
+                <td><label for="Program">Program <b style="color: red;">*</b></label></td>
+                <td><input type="Program" id="Program" name="Program"></td>
+            </tr>
+            <tr>
+                <td></td>
+                <td><label for="Education Level">Education Level <b style="color: red;">*</b></label></td>
+                <td>
+            <select name=" education level" id="education level">
+                    <option value="Select">Select</option>
+                    <option value="10th">10th</option>
+                    <option value="12th">12th</option>
+                    <option value="degree">Degree</option>
+                </select></td>
+
+                
+            </tr>
+            <tr>
+                <td></td>
+                <td></td>
+                <td> <fieldset> 
+                    <legend style="text-align: center;"> 
+                        <b>Education Status</b> 
+                    </legend>
+                    <table>
+                        <tr>
+                            <td><input type="radio">Graduated</td>
+                        </tr>
+                        <tr>
+                            <td><input type="radio">Current Enrolled</td>
+                        </tr>
+                        <tr>
+                            <td><input type="radio" name="" id="">Did Not Graduated</td>
+                        </tr>
+                    </table>
+
+                </td>
+            </tr>
+            <tr>
+                <td></td>
+                <td><label for="Graduation Date">Graduation Date</label></td>
+                <td><input type="date" id="Graduation Date" name="Graduation Date"></td>
+            </tr>
+            <thead>
+                <tr><td>
+                    
+                    <h4>Work Experience</h4>
+                </td></tr>
+                <tr>
+                    <td></td>
+                    <td><label for="employer">Employer:</label></td>
+                    <td><input type="employer" id="employer"name=employer></td>
+                </tr>
+                <tr>
+                    <td></td>
+                    <td><label for="job title">job Title:</label></td>
+                    <td><input type="job title" id="job title" name="job title"></td>
+                </tr>
+                <tr>
+                    <td></td>
+                    <td><label for="job Duty">job Duty:</label></td>
+                    <td><textarea name="20" id="" cols="30" rows="4"></textarea></td>
+                </tr>
+                <tr>
+                    <td></td>
+                    <td><label for="Worked Year">Worked Year:</label></td>
+                    <td><input type="number" id="Worked Year" name="Worked Year"></td>
+                </tr>
+            </thead>
+            <thead>
+                <tr><td>
+                    
+                    <h4>Attachments</h4>
+                </td></tr>
+                <tr>
+                    <td></td>
+                    <td><label for="Attachments">Attachments:</label></td>
+                    <td><input type="file" id="Attachments" name="Attachments"></td>
+                </tr>
+            </thead>
+        </table>
+        <input style="margin-left: 30%; background-color: red; color: white;" type="reset" id="reset" name="reset"> 
+        <button style="background-color: red;color: white;">Apply</button>
+       </form>
+</body>
+</html>

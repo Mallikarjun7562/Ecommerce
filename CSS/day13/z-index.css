@@ -1,0 +1,11 @@
+img{
+    position: absolute;
+    top: 0px;
+    z-index: -1111;
+}
+p{
+   color: cyan; 
+}
+img:hover{
+    opacity: 0.2;
+}

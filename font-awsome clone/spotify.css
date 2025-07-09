@@ -1,0 +1,23 @@
+ul{
+    display: flex;
+    justify-content: space-evenly;  
+    justify-content: end;
+    list-style: none;
+    font-size: medium;
+    justify-content: space-between;
+    margin-left:-1;
+    
+    height: 60px;
+    color: aliceblue;
+    background-color:black;
+    margin-top: 20px;
+}
+
+
+
+
+
+    
+
+
+    

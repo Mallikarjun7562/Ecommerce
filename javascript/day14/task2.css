@@ -1,0 +1,28 @@
+*{
+    padding: 0%;
+    margin: 0%;
+    box-sizing: border-box;
+}
+#btn{
+    height: 30px;
+    width: 80px;
+    border-radius: 5px;
+}
+ol{
+    /* border: 2px solid red; */
+    border-radius:10px ;
+    list-style: none;
+    width: 200px;
+    text-transform: uppercase;
+    background-color: #000;
+    color: #fff;
+    text-align: center;
+}
+ol li+li{
+    padding-top: 40px;
+}
+.bx-x{
+    color: #fff;
+    font-size: 35px;
+    margin-left: 160px;
+}

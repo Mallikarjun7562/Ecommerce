@@ -1,0 +1,40 @@
+div{
+    border: 2px solid red;
+    display: inline;
+}
+span{
+    border: 2px solid red;
+    display: inline;
+}
+ul{
+    display: flex;
+    list-style-type: none;
+    border: 3px solid black;
+    padding-left: 0%;
+    flex-direction: row;
+    height: 300px;
+    flex-direction: row-reverse;
+    flex-direction: column;
+    flex-direction: column-reverse;
+    /* justify-content: end; */
+    /* justify-content: center; */
+    /* justify-content: flex-end; */
+    /* justify-content: flex-start; */
+    /* justify-content: space-around; */
+    /* justify-content: space-evenly; */
+    /* align-items: center; */
+    /* align-items: end; */
+    /* align-items: flex-end; */
+     /* align-items: self-start; */
+     /* align-items: center; */
+     /* align-items: start; */
+     flex-wrap: nowrap;
+
+
+}
+li{
+    border: 2px solid green;
+}
+#demo{
+    align-items: flex-start;
+}

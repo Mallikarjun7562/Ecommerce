@@ -1,0 +1,42 @@
+p{
+    color: red;
+    /* text-transform: uppercase; */
+    /* text-transform: capitalize; */
+    text-transform: lowercase;
+    /* text-decoration: underline; */
+    /* text-decoration: overline; */
+    /* text-decoration: line-through; */
+/* letter-spacing: 25px; */
+/* word-spacing: 25px;
+line-height: 200px; */
+
+/* text-shadow: 10px 10px 1px blue; */
+
+/* text-indent: 50px; */
+}
+
+a{
+    /* text-decoration: none; */
+    text-decoration-color: red;
+    text-decoration-line: line-through;
+    text-decoration-style: wavy;
+}
+
+h2{
+    border: 2px solid;
+    height: 100px;
+    width: 100px; 
+    /* overflow: visible; */
+    overflow: hidden;
+    /* overflow: scroll; */
+    /* resize: horizontal; */
+    /* resize: vertical; */
+     /* resize: both;     */
+    text-wrap: nowrap;
+    text-overflow: ellipsis;
+}
+body{
+    width: 1000px;
+    overflow-x: hidden;
+    /* overflow-y: hidden; */
+}

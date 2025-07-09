@@ -1,0 +1,13 @@
+h1{
+    /* color:red; */
+    /* color: #fff; */
+    /* color: #000; */
+    /* color: rgb(50, 100, 200); */
+    /* color: rgb(0, 0, 0); */
+    /* color: rgb(255,255,255); */
+    /* color: rgba(100, 150,200,0.5); */
+    /* color: hsl(240deg, 70%, 10%); */
+    color: hsla(100deg,10%,50%,0.6);
+
+
+}

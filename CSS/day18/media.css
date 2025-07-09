@@ -1,0 +1,38 @@
+#demo,#demo1,#demo2{
+    border: 5px solid;
+    height: 250px;
+    display: flex;
+    display: inline;
+}
+@media (min-width :150px) and (max-width:450px) {
+    #demo{
+        background-color: blue;
+        display: flex;
+        align-items: center;
+        justify-content: center;
+        color: #fff;
+    }
+    
+}
+
+@media (min-width :450px) and (max-width:600px) {
+    #demo1{
+        background-color: red;
+        display: flex;
+        align-items: center;
+        justify-content: center;
+        color: #fff;
+    }
+    
+}
+
+@media (min-width :600px) and (max-width:800px) {
+    #demo2{
+        background-color: purple;
+        display: flex;
+        align-items: center;
+        justify-content: center;
+        color: #fff;
+    }
+    
+}

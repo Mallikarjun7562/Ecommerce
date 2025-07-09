@@ -1,0 +1,42 @@
+p::first-letter{
+    font-size: 30px;
+    color: red;
+}
+h1::first-line{
+    background-color: black;
+    color: red;
+    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+}
+h2::after{
+    content: url("https://th.bing.com/th/id/OIP.YC5Aec5m_9uh6V01wEn0BgHaJQ?rs=1&pid=ImgDetMain");
+}
+h2::before{
+    content: url("https://th.bing.com/th/id/OIP.YC5Aec5m_9uh6V01wEn0BgHaJQ?rs=1&pid=ImgDetMain");
+}
+li::marker{
+    /* color: purple; */
+    content: "😊";
+}
+li::marker{
+    content: "😍";
+    
+}
+li+li+li::marker{
+    content: "😎";
+}
+li+li+li+li::marker{
+    content: "😜";
+}
+li+li+li+li+li::marker{
+    content: "😚";
+}
+h3::selection{
+    color: blue;
+    background-color: black;
+}
+i{
+    font-size: 500%;
+}
+*{
+    font-family: 'Lobster', sans-serif;
+}

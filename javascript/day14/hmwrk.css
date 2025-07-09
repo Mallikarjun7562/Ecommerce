@@ -1,0 +1,48 @@
+*{
+    padding: 10px;
+    margin: 0%;
+    box-sizing: border-box;
+    background-image: url("https://images.pexels.com/photos/2098428/pexels-photo-2098428.jpeg?cs=srgb&dl=pexels-eberhard-grossgasteiger-2098428.jpg&fm=jpg");
+    background-size: cover;
+    background-position: center center;
+}
+#ipt{
+    border-radius: 10px;
+    width: 200px;
+    color: black;
+    font-size: 20px;
+    /* background-color: white;*/
+    background-image: none;
+    border: 2px solid white;
+}
+#add{
+    border-radius: 5px;
+    width: 70px;
+    height: 40px;
+    text-align: center;
+    background-color: black !important;
+    color: white;
+    font-size: 15px;
+    font-weight: bold;
+    border:2px solid white;
+}
+#add:hover{
+    cursor: pointer;
+    background-image: url("https://e1.pxfuel.com/desktop-wallpaper/30/550/desktop-wallpaper-light-color-backgrounds-for-websites-light-backgrounds.jpg");
+    color: black;
+}
+#dis{
+    display: none;
+   
+}
+#dis>button{
+    width: 90px;
+    border-radius: 5px;
+    /* border:2px solid white; */
+}
+#dis button{
+    color: white;
+    font-size: 15px;
+    font-weight: bold;
+    border:2px solid white;
+}

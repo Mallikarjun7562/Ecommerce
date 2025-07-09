@@ -1,0 +1,14 @@
+[
+    {
+        "name":"vikram",
+        "id":1,
+        "arr":[10,20,30]
+
+    },
+    {
+        "boolean":true,
+        "null":null,
+        "demo":{"name":"vikram"},
+        "demo1":"hello world"
+    }
+]

@@ -1,0 +1,116 @@
+
+*{
+    
+    padding: 0%;
+    margin: 0;
+    box-sizing: border-box;
+}
+#section1{
+    /* border: 2px solid; */
+    height: 2050px;
+    width: 1500px;
+    background-image: url(./IMG-2.jpg);
+    background-size: cover;
+    background-image: center;
+    /* background-position: center; */
+    background-attachment: fixed;
+    
+    
+}
+#section1>span{
+    font-size: 500px;
+    color: white;
+    font-weight: lighter;
+}
+#section1>span:hover{
+    cursor: pointer;
+    
+}
+#section1 h1{
+    font-size: 200px;
+    color: aliceblue;
+    
+}
+#section1>div>marquee>p{
+    font-size: 25px;
+    color:pink;
+    font-weight: 500;
+}
+#sec2{
+    
+    height: 2050px;
+    width: 1500px;
+    background-image: url(./IMG20220730221435.jpg);
+    background-size: cover;
+    background-attachment: fixed;
+    
+}
+
+#sec2>div>p{
+    font-size: 50px;
+    color: rgba(43, 113, 226, 0.878);
+    
+}
+#sec2>span:hover{
+    cursor: pointer;
+    
+}
+#sec3{
+    /* border: 2px solid; */
+    height: 1600px;
+    width: 1500px;
+    background-image: url(./IMG_20230324_142402.jpg);
+    background-size: cover;
+    background-attachment: fixed;
+    
+}
+
+#sec3>div>p{
+    font-size: 40px;
+    color:white;
+    
+}
+#sec3>span:hover{
+    cursor: pointer;
+    
+}
+#sec4{
+    /* border: 2px solid; */
+    height: 1600px;
+    width: 1500px;
+    background-image: url(./JKC_0249.JPG);
+    background-size: cover;
+    background-attachment: fixed;
+    
+}
+
+#sec4>div>p{
+    font-size: 40px;
+    color:white;
+    background-color: red;
+    
+}
+#sec4>span:hover{
+    cursor: pointer;
+    
+}
+#sec5{
+    /* border: 2px solid; */
+    height: 1600px;
+    width: 1500px;
+    background-image: url(./JKC_0266.JPG);
+    background-size: cover;
+    background-attachment: fixed;
+    
+}
+
+#sec5>div>p{
+    font-size: 40px;
+    color:black;
+
+    
+}
+#sec5>span:hover{
+    cursor: pointer;
+    
+}

@@ -1,0 +1,57 @@
+/* div{ 
+    border: 3px solid; 
+    height: 250px; 
+    width: 250px; 
+    animation-name: vicky; 
+    animation-duration: 210s; 
+    animation-iteration-count: infinite; 
+} 
+/* @keyframes vicky { 
+    from{ 
+        background-image: radial-gradient(red,yellow,blue);  
+    } 
+    to{ 
+        background-image: radial-gradient(blue,crimson,black); 
+    } 
+} */ 
+div{ 
+    border: 3px solid; 
+    height: 250px; 
+    width: 250px; 
+    border-radius: 20%; 
+    
+    animation-name: vicky; 
+    animation-delay: 1s; 
+    animation-duration: 3s; 
+    animation-timing-function: ease; 
+    animation-iteration-count: infinite; 
+    animation-direction: alternate; 
+    
+} 
+@keyframes vicky { 
+    0%{ 
+        background-color: red; 
+        transform:rotate(3600deg); 
+        transform: translateX(300px); 
+    } 
+    30%{ 
+        background-color: yellow; 
+        transform:rotate(7200deg); 
+        transform: translateY(300px); 
+    } 
+    50%{ 
+        background-color: blue; 
+        transform:rotate(10800deg); 
+        transform: translate(300px,300px); 
+    } 
+    70%{ 
+        background-color: crimson; 
+        transform:rotate(14400deg); 
+        transform: translate(400px,300px); 
+    } 
+    100%{ 
+        background-color: rgb(79, 39, 160); 
+        transform:rotate(21600deg); 
+        transform: translate(400px,400px); 
+    } 
+}

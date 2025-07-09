@@ -1,0 +1,143 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+</head>
+<body>
+    
+    <fieldset> 
+        <legend style="text-align: center;"> 
+            <b>REGISTER-FORM</b> 
+        </legend> 
+        <form action="http://www.ajio.com" method="post" autocomplete="on"> 
+        <table style="background-color: cornsilk;" > 
+            <tr> 
+                <td><label for="name">First Name:</label></td> 
+                <td><input type="text" id="name" name="name" value="Mallikarjun" autofocus ></td> 
+            </tr> 
+            <tr> 
+                <td><label for="lname">Last Name:</label></td> 
+                <td><input type="text" id="lname" name="lname" </td> 
+            </tr> 
+            <tr> 
+                <td> <label for="phno">  PhnNo:</label></td> 
+                <td><input type="tel" id="phno" name="phno" placeholder="Enter ur mobile number" required minlength="10" maxlength="10" ></td> 
+            </tr> 
+            <tr> 
+                <td> <label for="age">Age:</label></td> 
+                <td> <input type="number" name="age" id="age" value="23" disabled></td> 
+            </tr> 
+            <tr> 
+                <td> <label for="mail">Email:</label></td> 
+                <td><input type="email" name="mail" id="mail" value="21" readonly ></td> 
+            </tr> 
+            <tr> 
+                <td> <label for="pwd">Password:</label></td> 
+                <td><input type="password" name="pwd" id="pwd" pattern="[A-Z]{4}[a-z]{4}[0-9][4]" title="pattern is 123" ></td> 
+            </tr> 
+            <tr> 
+                <td> <label for="sex">Sex:</label></td> 
+                <td> 
+                    <input type="radio" name="sex" id="sex" checked  >male 
+                    <input type="radio" name="sex" id="sex"  >female 
+                </td> 
+            </tr> 
+            <tr> 
+                <td> <label for="add">Address</label></td> 
+                <td> <textarea name="add" id="add" cols="30" rows="10"></textarea></td> 
+            </tr> 
+            <tr> 
+                <td> <label for="qual">Qualification</label></td> 
+                <td> 
+                    <select name="qual" id="qual"> 
+                        <option value="B.Tech">B.Tech</option> 
+                        <option value="M.Tech">M.Tech</option> 
+                        <option value="B.Sc">B.Sc</option> 
+                        <option value="B.com">B.com</option> 
+                        <option value="B.Pharm">B.Pharm</option> 
+                        <option value="B.Arch">B.Arch</option> 
+                        <option value="B.A">B.A</option> 
+             
+                    </select> 
+                </td> 
+            </tr> 
+            <tr> 
+                <td><label for="spec">Specilization</label></td> 
+                <td> 
+                    <input list="spec"> 
+                    <datalist id="spec"> 
+                        <option value="civil">civil</option> 
+                        <option value="Computer Science">Computer Science</option> 
+                        <option value="Electronics and Communications">Electronics and Communications</option> 
+                        <option value="Electrical and Electronics">Electrical and Electronics</option> 
+                        <option value="Mechanical">Mechanical</option> 
+                        <option value="Ai">Artificial Intelligence</option> 
+                        <option value="DS">Data Science</option> 
+                        <option value="Robotronics">Robotronics</option> 
+                        <option value="Kcpd">KCPD</option> 
+                        <option value="Biotech">Biotechnology</option> 
+                        </datalist> 
+                </td> 
+            </tr> 
+            <tr> 
+                <td><label for="hob">hobbies</label></td> 
+                <td> 
+                    <input type="checkbox" name="hob" id="hob" checked >Playing 
+                    <input type="checkbox" name="hob" id="hob">Singing 
+                    <input type="checkbox" name="hob" id="hob">Browsing 
+                    <input type="checkbox" name="hob" id="hob" >Dancing 
+                    <input type="checkbox"name="hob" id="hob">Watching Tv 
+                    <input type="checkbox"name="hob" id="hob">Watching Movies 
+                    <input type="checkbox"name="hob" id="hob">Watching Cricket 
+                </td> 
+            </tr> 
+            <tr> 
+                <td><label for="dob">Date of Birth:</label></td> 
+                <td><input type="date" name="dob" id="dob" hidden></td> 
+            </tr> 
+            <tr> 
+                <td><label  for="rng">Range</label></td> 
+                <td ><input  type="range" id="rng" name="rng"  ></td> 
+            </tr> 
+            <tr> 
+                <td><label for="fil">File</label></td> 
+                <td><input type="file" id="fil" name="fil" ></td> 
+            </tr> 
+            <tr> 
+                <td><label for="srch">Search</label></td> 
+                <td><input type="search" id="srch" name="srch" ></td> 
+            </tr> 
+            <tr> 
+                <td><label for="clr">Color</label></td> 
+                <td><input type="color" name="clr" id="clr" ></td> 
+            </tr> 
+            <tr> 
+                <td><label for="img">Image</label></td> 
+                <td><input type="image" style="height: 10%; width: 50%;" src="https://images.pexels.com/photos/19199377/pexels-photo-19199377/free-photo-of-man-with-an-umbrella-walking-by-a-studio-entrance.jpeg?auto=compress&cs=tinysrgb&w=600&lazy=load" ></td> 
+            </tr> 
+            <tr> 
+                <td><label for="lcl">date-time-local</label></td> 
+                <td><input type="datetime-local"></td> 
+            </tr> 
+            <tr> 
+                <td><label for="week">week</label></td> 
+                <td><input type="week" id="week" name="week" ></td> 
+            </tr> 
+            <tr> 
+                <td><label for="mnth">Month</label></td> 
+                <td><input type="month" id="mnth" name="mnth" ></td> 
+            </tr> 
+            <tr> 
+                <td><label for="hid">Hidden</label></td> 
+                <td><input type="hidden" id="hid" name="hid" ></td> 
+            </tr>
+
+    </table>
+    <input type="submit" id="submit" name="submit">
+    <input type="Reset" name="reset" id="resetS">
+    </form>
+    
+</body>
+</html>

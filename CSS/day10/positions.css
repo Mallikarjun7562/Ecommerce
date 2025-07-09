@@ -1,0 +1,29 @@
+h1{
+    background-color:cyan;
+    color: purple;
+    border-radius: 3px;
+    text-align: center;
+    border: 2px solid black;
+    width: 100%;
+    position: fixed;
+    top: 0%;
+
+}
+#demo{
+    background-color: red;
+    color: white;
+    height: 100px;
+    position: relative;
+    /* position: absolute; */
+    width: 100px;
+    top: 100px;
+    /* bottom: 200px; */
+    left: 200px;
+}
+p+div{
+    border: 3px solid orange;
+    color: red;
+    border-radius: 2px;
+    top: 200px;
+}
+

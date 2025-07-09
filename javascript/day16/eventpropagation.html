@@ -1,0 +1,71 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <style>
+       #grand-parent{
+        border: 2px solid;
+        height: 400px;
+        width: 400px;
+
+       }
+       #parent{
+        border: 2px solid red;
+        height: 250px;
+        width: 250px;
+        margin-left: 70px;
+        margin-top: 60px;
+
+       } 
+       #child{
+        border: 2px solid blue;
+        height: 100px;
+        width: 100px;
+        margin-left: 70px;
+        margin-top: 60px;
+       }
+
+       #prnt{
+        border: 2px solid;
+        height: 400px;
+        width: 800px;
+        display: inline-flex;
+
+       }
+       #child-1{
+        border: 2px solid;
+        height: 150px;
+        width: 150px;
+        /* display: inline-flex; */
+        margin-top: 150px;
+        margin-left: 100px;
+       }
+       #child-2{
+        border: 2px solid;
+        height: 150px;
+        width: 150px;
+        margin-top: 150px;
+        margin-left: 100px;
+        /* display: inline-flex; */
+       }
+
+    </style>
+</head>
+<body>
+
+    <div id="grand-parent">grand-parent
+        <div id="parent">parent
+            <div id="child">child</div>
+        </div>
+    </div>
+
+    <div id="prnt">parent
+        <div id="child-1">child-1</div>
+        <div id="child-2">child-2</div>
+    </div>
+
+    <script src="./eventpropagation.js"></script>
+</body>
+</html>

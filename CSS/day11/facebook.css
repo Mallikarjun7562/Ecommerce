@@ -1,0 +1,109 @@
+*{
+    margin: 0%;
+    border: 0%;
+    font-family: SFProDisplay-Regular, Helvetica, Arial, sans-serif;
+   font-size: small;
+   background-color: rgb(230, 255, 250);
+}
+#div1{
+    border: 2px solid gray;
+    border-radius: 20px;
+    height: 340px;
+    width: 350px;
+    position: absolute;
+    top:16% ;
+    left: 55%;
+   box-shadow: 0px 0px 50px grey;
+}
+hr{
+    width: 80%;
+    margin: auto;
+}
+div+p{
+    color: black;
+    position: absolute;
+    left: 58%;
+    top: 66%;
+}
+p+div{
+   
+    width: 485px;
+    color: rgb(0, 149, 255);
+    position: relative;
+    left: 246px;
+    top: 167px;
+
+}
+div>img{
+    padding-left: -12px;
+    height: 100px;
+    width: 400px;
+}
+div>h2{
+    color: black;
+    text-align: inherit;
+    font-family: SFProDisplay-Regular, Helvetica, Arial, sans-serif;
+    font-size: 28px;
+    font-weight: normal;
+    text-wrap: nowrap;
+    margin-top: -10px;
+}
+img{
+    margin-left: -72px;
+}
+div form input{
+    width: 90%;
+    margin-left: 14px;
+    margin-top: 14px;
+    height: 40px;
+    border: 0.5px solid rgb(98, 114, 124);
+}
+button{
+    width: 90%;
+    margin-left: 14px;
+    margin-top: 5px;
+    height: 40px;
+    border-radius: 8px;
+    background-color: #1877f2;
+    border-color: #1877f2;
+    color: white;
+    font-weight: bold;
+    font-size: large;
+
+}
+#fp{
+    margin-left: 30%;
+    color:  rgb(0, 149, 255);
+    font-weight: 400;
+   text-decoration-line: none;
+}
+#nacc{
+    width: 60%;
+    margin-left: 70px;
+    margin-top: 25px;
+    height: 40px;
+    color: white;
+    font-size: large;
+    font-weight: bold;
+   background-color: #42b72a;
+   border-color: #42b72a;
+}
+input{
+    border-radius: 8px;
+    outline-color: #1877f2;
+}
+#cp{
+    text-decoration-line: none;
+    font-weight: bold;
+    font-size: medium;
+    color: black;
+}
+#nacc:hover{
+    background-color: rgb(0, 138, 57);
+}
+#fp:hover{
+    text-decoration-line: underline;
+}
+#cp:hover{
+    text-decoration-line: underline;
+}
