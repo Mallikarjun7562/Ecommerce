@@ -1,0 +1,292 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Sri Bhavitha International School</title>
+  <style>
+    body {
+      font-family: Arial, sans-serif;
+      margin: 0;
+      background: #f9f9f9;
+      color: #333;
+    }
+
+    header nav {
+      background:black;
+      padding: 10px;
+      text-align: center;
+      color: red;
+    
+    }
+
+    header nav h1 {
+        font-size: 80px;
+      margin: 5px 0;
+      font-size: 24px;
+    }
+
+    header nav h5 {
+      margin: 0;
+      font-size: 14px;
+      color:white;
+    }
+
+    ul.nav {
+      display: flex;
+      justify-content: center;
+      list-style: none;
+      padding: 0;
+      margin: 10px 0 0;
+      gap: 20px;
+    }
+
+    ul.nav li {
+      padding: 8px 20px;
+      background: #3498db;
+      color: white;
+      border-radius: 5px;
+      cursor: pointer;
+      transition: background 0.3s;
+    }
+
+    ul.nav li:hover {
+      background: #2980b9;
+    }
+
+    /* Image Gallery Section */
+    #homeSection {
+      text-align: center;
+      padding: 20px;
+    }
+
+    #homeSection img {
+      width: 250px;
+      height: 180px;
+      margin: 10px;
+      border-radius: 10px;
+      object-fit: cover;
+      box-shadow: 0px 2px 6px rgba(0,0,0,0.2);
+      transition: transform 0.3s;
+    }
+
+    #homeSection img:hover {
+      transform: scale(1.05);
+    }
+
+    /* Register Form */
+    #registerForm {
+      display: none;
+      margin: 30px auto;
+      width: 60%;
+      background: #fff;
+      padding: 20px;
+      border-radius: 10px;
+      box-shadow: 0px 3px 8px rgba(0,0,0,0.3);
+    }
+
+    fieldset {
+      border: 2px solid #3498db;
+      border-radius: 10px;
+      padding: 20px;
+    }
+
+    legend {
+      font-size: 18px;
+      color: #3498db;
+    }
+
+    table {
+      width: 100%;
+      border-spacing: 10px;
+    }
+
+    table td {
+      padding: 5px;
+    }
+
+    input, textarea, select {
+      padding: 6px;
+      width: 95%;
+      border: 1px solid #ccc;
+      border-radius: 5px;
+    }
+
+    input[type="radio"], input[type="checkbox"] {
+      width: auto;
+    }
+
+    /* Result placeholder */
+    #resultSection {
+      display: none;
+      text-align: center;
+      margin: 30px auto;
+      font-size: 18px;
+      color: #555;
+    }
+  </style>
+</head>
+<body>
+  <header class="main">
+    <nav>
+      <h1 style="font-size: 40px;">SRI BHAVITHA INTERNATIONAL SCHOOL</h1>
+      <h5>YERRAVALLI X' ROAD | CELL: 6301513848, 9441649501, 9381114773</h5>
+      <ul class="nav">
+        <li id="homeBtn">Home</li>
+        <li id="adminBtn">Admin Form</li>
+        <li id="resultBtn">Result</li>
+      </ul>
+    </nav>
+  </header>
+
+  <!-- Home Images -->
+  <section id="homeSection">
+    <img src="./children class.webp" alt="Children Class">
+    <img src="./classroom children.jpg" alt="Classroom">
+    <img src="./students.jpg" alt="Students"><br>
+    <img src="./play ground 1.jpg" alt="Playground">
+    <img src="./paly ground 2.webp" alt="Playground">
+    <img src="./projector.jpg" alt="Projector">
+  </section>
+
+
+  <!-- Register Form -->
+  <div id="registerForm">
+    <fieldset>
+      <legend><b>REGISTER FORM</b></legend>
+      <form action="http://www.ajio.com" method="post">
+        <table>
+          <tr>
+            <td><label for="name">Surname:</label></td>
+            <td><input type="text" id="name" name="name"></td>
+          </tr>
+          <tr>
+            <td><label for="lname">Student Name:</label></td>
+            <td><input type="text" id="lname" name="lname"></td>
+          </tr>
+          <tr>
+            <td><label for="dob">Date of Birth:</label></td>
+            <td><input type="date" name="dob" id="dob"></td>
+          </tr>
+          <tr>
+            <td><label for="phno">Class:</label></td>
+            <td><input type="tel" id="phno" name="phno"></td>
+          </tr>
+           <td><label>Sex:</label></td>
+            <td>
+              <input type="radio" name="sex" value="male"> Male
+              <input type="radio" name="sex" value="female"> Female
+            </td>
+           <tr>
+            <td><label for="lname">Father Name:</label></td>
+            <td><input type="text" id="lname" name="lname"></td>
+          </tr>
+           <tr>
+            <td><label for="lname">Mother Name:</label></td>
+            <td><input type="text" id="lname" name="lname"></td>
+          </tr>
+          <tr>
+            <td><label for="phno">Phone No:</label></td>
+            <td><input type="tel" id="phno" name="phno"></td>
+          </tr>
+          <tr>
+            <td><label for="phno">Aadhar No:</label></td>
+            <td><input type="tel" id="phno" name="phno"></td>
+          </tr>
+          <tr>
+            <td><label for="mail">Email:</label></td>
+            <td><input type="email" name="mail" id="mail"></td>
+          </tr>
+          <tr>
+            <td><label for="add">Address:</label></td>
+            <td><textarea name="add" id="add" cols="30" rows="4"></textarea></td>
+          </tr>
+            </td>
+          </tr>
+          <tr></tr>
+          </tr>
+          
+        </table>
+      </form>
+    </fieldset>
+  </div>
+
+  <!-- Result Section -->
+  <div id="resultSection">
+      <section >
+    <img src="./result 1.jpg" alt="Children Class">
+    <img src="./result 2.jpg" alt="Classroom">
+  </section>
+  </div>
+
+    <!-- Footer -->
+  <footer style="background:#333;; color:white; padding:20px; text-align:center; margin-top:40px;">
+    <div>
+      <h3 style="margin:5px 0; font-size:20px; color: white;">Sri Bhavitha International School</h3>
+      <p style="margin:5px 0; font-size:14px; color: red;">
+        Yerravalli X Road, Telangana | 📞 6301513848 / 9441649501 / 9381114773
+      </p>
+      <p style="margin:5px 0; font-size:14px;">✉️ balaramudu1@gmail.com | 🌐 www.Sri Bhavitha International School.in</p>
+    </div>
+    <hr style="border:0; border-top:1px solid #444; margin:15px 0;">
+    <div style="font-size:13px;">
+      © 2025 Sri Bhavitha International School. All Rights Reserved.
+    </div>
+  </footer>
+
+  <script>
+    const homeBtn = document.getElementById("homeBtn");
+    const adminBtn = document.getElementById("adminBtn");
+    const resultBtn = document.getElementById("resultBtn");
+
+    const homeSection = document.getElementById("homeSection");
+    const registerForm = document.getElementById("registerForm");
+    const resultSection = document.getElementById("resultSection");
+
+    let isAdminFormVisible = false;
+
+    // Show Home
+    homeBtn.addEventListener("click", () => {
+      homeSection.style.display = "block";
+      registerForm.style.display = "none";
+      resultSection.style.display = "none";
+      isAdminFormVisible = false;
+    });
+
+    // Toggle Admin Form
+    adminBtn.addEventListener("click", (e) => {
+      e.stopPropagation(); // prevent body click from firing
+      if (isAdminFormVisible) {
+        registerForm.style.display = "none";
+        isAdminFormVisible = false;
+      } else {
+        homeSection.style.display = "none";
+        resultSection.style.display = "none";
+        registerForm.style.display = "block";
+        isAdminFormVisible = true;
+      }
+    });
+
+    // Show Result
+    resultBtn.addEventListener("click", () => {
+      homeSection.style.display = "none";
+      registerForm.style.display = "none";
+      resultSection.style.display = "block";
+      isAdminFormVisible = false;
+    });
+
+    // Hide Admin Form if clicking outside
+    document.body.addEventListener("click", () => {
+      if (isAdminFormVisible) {
+        registerForm.style.display = "none";
+        isAdminFormVisible = false;
+      }
+    });
+
+    // Prevent closing when clicking inside form
+    registerForm.addEventListener("click", (e) => {
+      e.stopPropagation();
+    });
+  </script>
+</body>
+</html>
